@@ -1,0 +1,14 @@
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\bin\Debug\netcoreapp2.1\heartBeatServerAPI.deps.json
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\bin\Debug\netcoreapp2.1\heartBeatServerAPI.runtimeconfig.json
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\bin\Debug\netcoreapp2.1\heartBeatServerAPI.runtimeconfig.dev.json
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\bin\Debug\netcoreapp2.1\heartBeatServerAPI.dll
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\bin\Debug\netcoreapp2.1\heartBeatServerAPI.pdb
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\obj\Debug\netcoreapp2.1\heartBeatServerAPI.csprojAssemblyReference.cache
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\obj\Debug\netcoreapp2.1\heartBeatServerAPI.csproj.CoreCompileInputs.cache
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\obj\Debug\netcoreapp2.1\heartBeatServerAPI.RazorAssemblyInfo.cache
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\obj\Debug\netcoreapp2.1\heartBeatServerAPI.RazorAssemblyInfo.cs
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\obj\Debug\netcoreapp2.1\heartBeatServerAPI.AssemblyInfoInputs.cache
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\obj\Debug\netcoreapp2.1\heartBeatServerAPI.AssemblyInfo.cs
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\obj\Debug\netcoreapp2.1\heartBeatServerAPI.RazorTargetAssemblyInfo.cache
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\obj\Debug\netcoreapp2.1\heartBeatServerAPI.dll
+C:\Users\pamatya\Desktop\dot\heartBeatServerAPI\obj\Debug\netcoreapp2.1\heartBeatServerAPI.pdb
