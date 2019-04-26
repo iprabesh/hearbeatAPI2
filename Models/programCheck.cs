@@ -9,12 +9,12 @@ namespace heartBeatServerAPI.Models
         public int programCount{get; set;}
         public int programLimit { get; set;}
 
-        public programCheck(int Id, string programName, int programCount,int programLimit){
+       /*  public programCheck(int Id, string programName, int programCount,int programLimit){
             this.Id = Id; 
             this.programName = programName;
             this.programCount = programCount;
             this.programLimit = 2;
 
-        }
+        } */
     }
 }

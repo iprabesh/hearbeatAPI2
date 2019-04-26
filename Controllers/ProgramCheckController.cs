@@ -14,18 +14,25 @@ namespace heartBeatServerAPI.Controllers
     [ApiController]
     public class ProgramCheckController : ControllerBase
     {
-        static programCheck pCheck = new programCheck(1, "test.exe", 0, 2);    
+        //static programCheck pCheck = new programCheck(1, "test.exe", 0, 2);    
         // GET api/values
+        static readonly IProgramCheckRepository repository = new ProgramCheckRepository();
         [HttpGet]
         public IEnumerable<programCheck> Get()
         {
-            yield return pCheck;
+           return repository.GetAll();
         }
-         // POST api/values
-        [HttpPost]
+       
+       [HttpGet("{id}")]
+       public programCheck GetProduct(int id)
+        {
+            programCheck item = repository.Get(id);
+            
+            return item;
+        }
       // POST api/values
         [HttpPost]
-        public int Post([FromBody] programCheck pCheck1)
+       /*  public int Post([FromBody] programCheck pCheck1)
         {
             pCheck.Id = pCheck1.Id; 
             pCheck.programCount = pCheck1.programCount; 
@@ -33,17 +40,18 @@ namespace heartBeatServerAPI.Controllers
             pCheck.programLimit = pCheck.programLimit; 
             
             return pCheck1.programCount; 
-        }
+        } */
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] programCheck pCheck1)
+       public void PutProduct(int id, programCheck product)
         {
-            pCheck.Id = pCheck1.Id; 
-            pCheck.programCount = pCheck1.programCount; 
-            pCheck.programName = pCheck.programName; 
-            pCheck.programLimit = pCheck.programLimit; 
-            
+            product.Id = id;
+            if (!repository.Update(product))
+            {
+                Console.WriteLine("Failed");
+                //throw new HttpResponseException(HttpStatusCode.NotFound);
+            }
         }
 
         // DELETE api/values/5
