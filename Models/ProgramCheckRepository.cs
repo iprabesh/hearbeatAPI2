@@ -8,7 +8,7 @@ namespace heartBeatServerAPI.Models
         private int _nextId = 1;
 
         public ProgramCheckRepository(){
-            Add(new programCheck {programName="note.exe", programCount=1, programLimit=2});
+            Add(new programCheck {programName="notepad.exe", programCount=0, programLimit=2});
         }
 
 
